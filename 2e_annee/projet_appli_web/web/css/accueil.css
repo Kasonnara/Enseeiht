@@ -1,0 +1,104 @@
+body {
+  padding-top: 54px;
+}
+
+#topicbox {
+  padding: 10px;
+  margin: 30px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#topicbox img{
+	margin: 5px auto;
+	max-height : 100%;
+	max-width : 100%;
+}
+
+#topicbox h1{
+	color : #313538;
+}
+
+#topicbox h2{
+	color : #586066;
+}
+
+#topicbox .btn-primary {
+	background-color: #f14444; 
+	border-color: #c43636;
+	margin-right: 10px}
+#topicbox .btn-primary:hover {
+    background-color: #c43636; }
+#topicbox .btn-primary:active {
+    background-color: #c43636; }
+	
+#bouttonCreation {
+	margin-left : 10px ;
+	margin-bottom : 30px;
+}
+
+#bouttonCreation .btn-primary {
+	background-color: #f14444; 
+	border-color: #c43636;
+	margin-right: 10px}
+#bouttonCreation .btn-primary:hover {
+    background-color: #c43636; }
+#bouttonCreation .btn-primary:active {
+    background-color: #c43636; }
+	
+
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+.btn-circle, .btn-circle-3d{
+  border-radius: 50% !important;
+}
+
+.btn-primary.btn-circle{
+  background-color : #f14444;
+  -webkit-box-shadow: 0px 0px 3px 1px #992a2a;
+  -moz-box-shadow:    0px 0px 3px 1px #992a2a;
+  box-shadow:         0px 0px 3px 1px #992a2a;
+}
+
+.btn-info.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #ce3939;
+  -moz-box-shadow:    0px 0px 3px 1px #ce3939;
+  box-shadow:         0px 0px 3px 1px #ce3939;
+}
+
+.btn-success.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #ce3939;
+  -moz-box-shadow:    0px 0px 3px 1px #ce3939;
+  box-shadow:         0px 0px 3px 1px #ce3939;
+}
+
+.btn-danger.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #ce3939;
+  -moz-box-shadow:    0px 0px 3px 1px #ce3939;
+  box-shadow:         0px 0px 3px 1px #ce3939;
+}
+
+.btn-warning.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #e82222;
+  -moz-box-shadow:    0px 0px 3px 1px #e82222;
+  box-shadow:         0px 0px 3px 1px #e82222;
+}
+
+.btn-default.btn-circle{
+  -webkit-box-shadow: 0px 0px 3px 1px #ccc;
+  -moz-box-shadow:    0px 0px 3px 1px #ccc;
+  box-shadow:         0px 0px 3px 1px #ccc;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Devenir VIP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/accueil.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+  </head>
+
+   <body ng-app>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div ng-include="'modules/top_navbar.jsp'"></div>
+    </nav>
+		<b>Devenir VIP :</b><br>
+		<form method="post" action="Restricted">
+		<p>Utilisateur : <input type="text" name="utilisateur"></p>
+		<p>Durée de l'abonnement : <input type="text" name="duree"></p>
+		<br>
+		<p>Numéro de carte : <input type = "text" name="nocarte"></p>
+		<p>Titulaire : <input type = "text" name="titulaire"></p>
+		<p>Date d'expiration : <input type = "month" name="expiration"></p>
+		<p>Cryptogramme visuel : <input type = "text" name="crypto"></p>
+		<p><input type="submit" value="Payer"></p>
+		<p><input type="hidden" name="op" value="Vpaiement"></p>
+		</form>
+	<!-- Footer -->
+    <div ng-include="'modules/footer.html'"></div>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

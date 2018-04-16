@@ -1,0 +1,28 @@
+::selection {
+  background-color: #eeeeee;
+}
+
+::-moz-selection {
+  background-color: #eeeeee;
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #eeeeee;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #eeeeee;
+}
+
+footer.footer .list-inline-item {
+  color : #f14444; }
+  
+footer.footer .fa {
+  color : #f14444; }
+  
+footer.footer a {
+  color : #f14444; }
+  

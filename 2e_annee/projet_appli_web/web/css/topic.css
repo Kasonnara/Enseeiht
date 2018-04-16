@@ -1,0 +1,50 @@
+body {
+  padding-top: 54px;
+}
+
+#messagebox {
+  padding: 10px;
+  margin: 30px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#messagebox img{
+	margin: 5px auto;
+	max-height : 100%;
+	max-width : 100%;
+}
+
+#messagebox .text-left{
+	max-height : 10%;
+	color : #313538;
+}
+
+#messagebox h2{
+	color : #586066;
+}
+
+#messagebox .btn-primary {
+	background-color: #f14444; 
+	border-color: #c43636;
+	margin-right: 10px}
+#messagebox .btn-primary:hover {
+    background-color: #c43636; }
+#messagebox .btn-primary:active {
+    background-color: #c43636; }
+	
+
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
