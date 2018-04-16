@@ -1,0 +1,32 @@
+JFLAGS = -g
+JC = javac
+.SUFFIXES: .java .class
+.java.class:
+	$(JC) $(JFLAGS) $*.java
+
+CLASSES = \
+	Affichage_src.Afficheur.java \
+	Evenements_src.EffectDialogue.java \
+	Evenements_src.EffectTeleport.java \
+	Evenements_src.Evenement.java \
+				Evenements_src.EvenementCondition.java \
+				Evenements_src.EvenementEffect.java \
+				UtilitaireDeFichiers_src.FileRegex.java \
+				main_src.Game.java \
+				Affichage_src.GUInterface.java \
+				Init.java \
+				InvalideEvenementParametre.java \
+				InvalideSpriteIndexException.java \
+				Exceptions_src.MapSpriteOutOfBoundException.java \
+				MissingEvenement.java \
+				Exceptions_src.MissingMapData.java \
+				Exceptions_src.MissingMapSpriteException.java \
+				main_src.joueur.Personnage.java \
+				main_src.Terrain.java \
+
+default: classes
+#default: echo "bla"
+classes: $(CLASSES:.java=.class)
+
+clean:
+	$(RM) *.class

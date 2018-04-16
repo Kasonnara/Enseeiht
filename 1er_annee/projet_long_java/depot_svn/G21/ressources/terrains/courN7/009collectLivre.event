@@ -1,0 +1,5 @@
+position=50;25
+statCondition=curiosité;SUP;0
+collectable=livre
+dialogueEffect=Bravo!.. Tu as trouvé un livre!...
+

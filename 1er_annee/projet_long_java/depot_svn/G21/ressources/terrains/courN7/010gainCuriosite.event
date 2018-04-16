@@ -1,0 +1,6 @@
+position=40;15
+statCondition=curiosité;EQU;
+nb_trigger=1
+statEffect=curiosité;PLUS;5
+visualiseEffect=icones/interrogation.png
+dialogueEffect=?.. Tu as gagné 5 points de curiosité...
