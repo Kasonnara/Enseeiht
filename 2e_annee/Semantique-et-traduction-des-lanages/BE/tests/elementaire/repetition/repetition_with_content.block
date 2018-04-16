@@ -1,0 +1,9 @@
+repetition_with_content {
+    // Test de repetition_with_content (template auto-générée)
+    int cpt = 0;
+    while (cpt < 5){
+        int incr = 1;
+        cpt = cpt + incr;
+        print cpt;
+    }
+}

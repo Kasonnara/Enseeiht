@@ -1,0 +1,5 @@
+sequence_to_array {
+    // Test de sequence_to_array (template auto-générée)
+    int arr[] = new int[5];
+    arr = {5,9,8,7,2}; // TODO erreur
+}

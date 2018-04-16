@@ -1,0 +1,3 @@
+test {
+	character a = 'x' ;
+}

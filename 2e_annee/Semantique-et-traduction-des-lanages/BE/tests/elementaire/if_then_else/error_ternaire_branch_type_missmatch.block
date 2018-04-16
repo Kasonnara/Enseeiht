@@ -1,0 +1,4 @@
+error_ternaire_branch_type_missmatch {
+    // Test de error_ternaire_branch_type_missmatch (template auto-générée)
+    boolean x = true?false:5;
+}

@@ -1,0 +1,88 @@
+functions {
+	//return 4 ;
+
+	int id(int j) {
+		return j ;
+	}
+
+	int rid1 = id("toto") ;
+
+	int rid2 = id (43,3) ;
+	int rid3 = id(3) ;
+	int rid = id(3) ;
+
+	/*int f() {
+		return "toto" ;
+	}*/
+
+	int incr = 4 ;
+	int fincr(int j) {
+		return j + incr ;
+	}
+	int j2 = fincr(38) ;
+
+	int fun1(boolean b) {
+		if (b) {
+			return 0 ;
+		} else {
+			return 1 ;
+		}
+	}
+	int k = fun1(4 == 2 + 2) ;
+
+	int fun2(boolean b) {
+		if (b) {
+			return 0 ;
+		}
+		int i = 4 ;
+		int j = 3 ;
+		return (i + j + 54) ;
+	}
+	int l = fun2(false) ;
+
+	int fun3() {
+		return 5 ;
+		return 4 ;
+	}
+	
+	int fun4() {
+		int a = 54 ;
+		return a ;
+		int b = 43 ;
+		if (true) {
+			b = 12 ;
+		}
+	}
+
+	int fun5(boolean b, int i) {
+		if (b && i < 40) {
+			return i ;
+		} else {
+			int j = i - 40 ;
+			if (!b && j < 40) {
+				return 0 ;
+			}
+			return 42 ;
+		}
+	}
+
+	/*int factorielle(int n) {  --------TODO recursvité
+		if (n == 0) {
+			return 1 ;
+		} 
+		return n * factorielle(n-1) ;
+	}
+	int fact = factorielle(1999) ;
+	*/
+	void augmenter(int* ptr, int _tab[], int taille) {
+		int i = 0 ;
+		int tab[] = _tab;
+		while (i < taille) {
+			tab[i] = tab[i] + *ptr ;
+		}
+	}
+	int aug = 4 ;
+	int tab[] = new int[5] ;
+	tab = {1 , 2 , 3 , 4 , 5} ;
+
+}

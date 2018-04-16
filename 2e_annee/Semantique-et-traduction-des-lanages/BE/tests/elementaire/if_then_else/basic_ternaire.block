@@ -1,0 +1,4 @@
+basic_ternaire {
+    // Test de basic_ternaire (template auto-générée)
+    int x = true? 42 : 13;
+}

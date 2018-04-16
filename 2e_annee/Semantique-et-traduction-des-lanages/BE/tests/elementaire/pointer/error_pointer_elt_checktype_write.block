@@ -1,0 +1,6 @@
+error_pointer_elt_checktype_write {
+    // Test de error_pointer_elt_checktype_write (template auto-générée)
+    int x = 5;
+    int *plt = &x;
+    *plt = 'x';
+}

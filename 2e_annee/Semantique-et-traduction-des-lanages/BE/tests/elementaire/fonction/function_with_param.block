@@ -1,0 +1,8 @@
+function_with_param {
+    // Test de function_with_param (template auto-générée)
+    <int,character> f_empty(character x, int y){
+                    int a = 42+y;
+                    <int,character> b = <a,x>;
+                    return b;
+         }
+}

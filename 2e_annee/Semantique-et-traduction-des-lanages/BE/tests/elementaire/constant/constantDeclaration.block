@@ -1,0 +1,6 @@
+test {
+	const character a = 'x' ;
+	const int b = 42;
+	const boolean c = true;
+	const boolean d = false;
+}

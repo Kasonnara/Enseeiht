@@ -1,0 +1,13 @@
+abs {
+    // Test de abs (template auto-générée)
+    int abs(int x){
+        if (x>=0){
+        return x;
+        } else {
+            return -x;
+        }
+    }
+
+    print abs(42);
+    print abs(-13);
+}

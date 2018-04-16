@@ -1,0 +1,8 @@
+function_decl_with_return {
+    // Test de function_decl_with_return (template auto-générée)
+    <int,character> f_empty(){
+                int a = 42;
+                <int,character> b = <a,'p'>;
+                return b;
+     }
+}

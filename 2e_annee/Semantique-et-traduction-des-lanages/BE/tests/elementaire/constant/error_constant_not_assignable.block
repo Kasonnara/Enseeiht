@@ -1,0 +1,5 @@
+error_constant_not_assignable {
+    // Test de error_constant_not_assignable (template auto-générée)
+    const int x = 5;
+    x=42;
+}

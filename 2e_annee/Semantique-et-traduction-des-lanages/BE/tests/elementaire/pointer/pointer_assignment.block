@@ -1,0 +1,7 @@
+pointer_assignment {
+    // Test de pointer_assignment (template auto-générée)
+    int x = 5;
+    int *pts = &x;
+    int y = 8;
+    pts = &y;
+}

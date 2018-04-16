@@ -1,0 +1,4 @@
+sequence_to_couple {
+    // Test de sequence_to_couple (template auto-générée)
+    <int, character> c = {5,'é'};
+}

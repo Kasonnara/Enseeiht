@@ -1,0 +1,8 @@
+array_assignment {
+    // Test de array_assignment (template auto-générée)
+    int arr1[] = new int[1];
+    arr1 = new int[6];
+
+    int arr2[] = new int[5];
+    arr1 = arr2;
+}

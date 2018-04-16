@@ -1,0 +1,4 @@
+error_ternaire_not_boolean_condition {
+    // Test de error_ternaire_not_boolean_condition (template auto-générée)
+    character a = 0?'a':'b';
+}

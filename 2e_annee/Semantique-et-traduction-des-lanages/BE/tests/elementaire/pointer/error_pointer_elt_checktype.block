@@ -1,0 +1,5 @@
+error_pointer_elt_checktype {
+    // Test de error_pointer_elt_checktype (template auto-générée)
+    character x = 'y';
+    int *plt = &x;
+}

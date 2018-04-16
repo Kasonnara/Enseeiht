@@ -1,0 +1,12 @@
+basic_if_then_else {
+    // Test de basic_if_then_else (template auto-générée)
+    if (false) {
+
+    } else {
+
+    }
+
+    if (true) {
+
+    }
+}

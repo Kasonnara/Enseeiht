@@ -1,0 +1,3 @@
+test_error {
+    int bidule = 'x';
+}

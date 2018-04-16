@@ -1,0 +1,10 @@
+record_elt_assignment {
+    // Test de record_elt_assignment (template auto-générée)
+    typedef struct t_record { character x; int y; <int,int> z; } basic_struct;
+
+    basic_struct *a_record = new basic_struct();
+
+    (*a_record).x = 'x';
+
+    (*a_record).z = <5,8>;
+}

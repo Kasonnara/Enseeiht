@@ -1,0 +1,5 @@
+pointer_declaration {
+    // Test de pointer_declaration (template auto-générée)
+    int v1 = 5;
+    int *pts = &v1;
+}

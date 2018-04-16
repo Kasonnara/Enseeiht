@@ -1,0 +1,4 @@
+error_pointer_checktype {
+    // Test de error_pointer_checktype (template auto-générée)
+    int *plt = 8;
+}

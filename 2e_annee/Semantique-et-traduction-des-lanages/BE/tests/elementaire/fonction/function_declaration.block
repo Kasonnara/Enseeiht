@@ -1,0 +1,4 @@
+function_declaration {
+    // Test de function_declaration (template auto-générée)
+    void f_empty(){}
+}

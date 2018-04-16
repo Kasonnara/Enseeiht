@@ -1,0 +1,7 @@
+array_access {
+    // Test de array_access (template auto-générée)
+    int arr[] = new int[5];
+    arr[3] = 6;
+    arr[2] = 8;
+    print arr[3];
+}

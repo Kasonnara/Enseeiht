@@ -1,0 +1,15 @@
+absolue {
+    // Test de absolue (template auto-générée)
+    int v_positive = 5;
+    if (v_positive < 0) {
+        v_positive = -v_positive;
+    }
+    print v_positive;
+
+    int v_negative = -42;
+    boolean negatif = v_negative < 0;
+    if (negatif) {
+        v_negative = - v_negative;
+    }
+    print v_negative;
+}

@@ -1,0 +1,5 @@
+array_assignment {
+    // Test de array_assignment (template auto-générée)
+    character arr[] = new character[5];
+    arr[2] = 'x';
+}

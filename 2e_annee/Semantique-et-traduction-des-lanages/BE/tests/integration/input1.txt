@@ -1,0 +1,19 @@
+test {
+	// commentaire mono ligne
+	print 0;
+	boolean condition = true;
+	if (condition) {
+		int i = 5;
+		/*commentaire
+		multi
+		ligne*/
+		while (i>0) {
+			i = i-1;
+		}
+	} else  {
+		if (false) {
+			print 2;
+			print <2,5>; 
+		}
+	}
+}

@@ -1,0 +1,16 @@
+pointer_record_chain {
+    // Test de pointer_record_chain (template auto-générée)
+    int x = 5;
+    typedef struct a_struct {
+        int a;
+        int *b;
+    } a2_struct;
+
+    a2_struct y = {42, &x};
+    a2_struct *z = &y;
+    a2_struct **w = &z;
+
+    print (**w).a;
+    print *((**w).b);
+
+}

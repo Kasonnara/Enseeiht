@@ -1,0 +1,4 @@
+error_symbol_not_found {
+    // Test de l'assignment d'une variable qui n'existe pas (template auto-générée)
+    x = 42;
+}

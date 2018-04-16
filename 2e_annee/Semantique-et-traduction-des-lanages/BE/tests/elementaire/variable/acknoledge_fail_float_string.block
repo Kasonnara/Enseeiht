@@ -1,0 +1,4 @@
+fail_string_float_not_implanted {
+    float c = 1.0;
+    String d = "truc";
+}

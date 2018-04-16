@@ -1,0 +1,4 @@
+error_element_type_missmatch {
+    // Test de error_element_type_missmatch (template auto-générée)
+    int arr[] = new boolean[5];
+}

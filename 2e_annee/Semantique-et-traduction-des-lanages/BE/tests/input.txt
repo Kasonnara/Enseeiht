@@ -1,0 +1,90 @@
+TESTBE {
+
+	// Variables simples, constantes et printer
+	int a = 0 ;
+	a = 3 ;
+	String s = "toto" ;
+	//print s ;  ---------TODO
+	//const int a = 0 ;
+	const int c = 0 ;
+	//c = 3 ;
+	print 0 ;
+	print 3 + 4 ;
+	print a ;
+
+	// Tests sur les typedefs et les records
+	typedef struct MyRecord {
+		int i ;
+		String s ;
+		int j ; 
+	} MyNamedRecord ;
+	MyNamedRecord mr = { 3 , "toto" , 4 } ;  // TODO MyRecord
+	//MyNamedRecord r = { 1 , "tata" , 2 } ;
+	mr.i = 4 ;
+	//mr.x = 2 ;
+	//mr.s = 3 ;
+	//mr.i = r.i ;
+	//mr = r ;
+	typedef int Entier ;
+	Entier x = 4 ;
+	int y = x ;
+	Entier z = true ? x : y ;
+
+
+	// Tests sur les pointeurs
+	int b = 100 ;
+	int *p = &b ;
+	*p = 50 ;
+	//int *q = new String() ;
+	int *r = new int() ;
+	*r = 4 ;
+	int **pr = &r ;
+	//*r = p;
+	//**r = 200 ;
+	
+
+	// Tests sur les tableaux et le while
+	int tab[] = new int[4] ;
+	int tob[] = new int[5] ;
+	tab = { 2 , 4 , 5 , 5 } ;
+	int i = 0 ;
+	while (i < 4) {
+		tob[i] = tab[i] ;
+		i = i + 1 ;
+	}
+	tob[4] = 24 ; 
+	tab = tob ;
+	
+	// Tests sur les couples et le if
+	// <int,String> is = <3,4> ;
+	<int,String> os = <4,"toto"> ;
+	os = { fst os , "lulu" } ;
+	if (false) {
+		os = { 4 , "tutu" } ;
+	}
+	if (true) {
+		int a = fst os ;
+	} else {
+		// int a = snd os ;
+		print a ;
+	}
+	
+	// Mélange
+	typedef struct _onlyStruct {
+		int *p ;
+		int t[] ;
+	} onlyStruct;
+	onlyStruct habitant = {new int() , new int[4]} ;
+	onlyStruct *pointeurHabitant = &habitant ;
+	onlyStruct *pointeurBis = new onlyStruct() ;
+	*((*pointeurHabitant).p) = 4 ;
+	(*pointeurHabitant).t = { 1 , 2 , 3 , 4 } ;
+	*pointeurBis = *pointeurHabitant ;
+	typedef int myInt ;
+	myInt mi = 54 ;
+	// boolean b = mi > ((*pointeurHabitant).t)[3] ;
+	print b ;
+	((*pointeurHabitant).t)[2] = *((*pointeurBis).p) ;
+
+
+}

@@ -1,0 +1,3 @@
+test_error {
+    const int bidule = 'x';
+}

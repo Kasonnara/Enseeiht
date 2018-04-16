@@ -1,0 +1,4 @@
+error_not_a_reference {
+    // Test de error_not_a_reference (template auto-générée)
+    int *pts = &5;
+}

@@ -1,0 +1,5 @@
+error_print_type {
+    // Test de error_print_type (template auto-générée)
+    int arr[] = new arr[3];
+    print arr;
+}

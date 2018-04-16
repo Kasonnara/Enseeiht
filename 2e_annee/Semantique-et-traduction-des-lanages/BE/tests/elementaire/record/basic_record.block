@@ -1,0 +1,6 @@
+empty_record {
+    // Test de empty_record (template auto-générée)
+    typedef struct t_record { character x; } basic_struct;
+    
+    basic_struct *a_record = new basic_struct();
+}

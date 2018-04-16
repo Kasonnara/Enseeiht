@@ -1,0 +1,9 @@
+if_then_else_with_content {
+    // Test de if_then_else_with_content (template auto-générée)
+    int x = 5;
+    if (x >= 0){
+        int y = 12;
+    } else {
+        print 8;
+    }
+}

@@ -1,0 +1,6 @@
+enum_decl {
+    // Test de enum_decl (template auto-générée)
+    typedef enum mon_enum { RAZ, STATE1, STATE2 } a_enum;
+
+     enum a_enum x = a_enum.RAZ;
+}

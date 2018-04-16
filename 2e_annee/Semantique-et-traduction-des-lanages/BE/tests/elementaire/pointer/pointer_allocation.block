@@ -1,0 +1,4 @@
+pointer_allocation {
+    // Test de pointer_allocation (template auto-générée)
+    <int,character> *plt = new <int,character>();
+}

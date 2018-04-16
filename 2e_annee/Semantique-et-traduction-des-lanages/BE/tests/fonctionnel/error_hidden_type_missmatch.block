@@ -1,0 +1,8 @@
+error_hidden_type_missmatch {
+    // Test de error_hidden_type_missmatch (template auto-générée)
+    if (true) {
+        if (true) {
+            int a = 'f';
+        }
+    }
+}

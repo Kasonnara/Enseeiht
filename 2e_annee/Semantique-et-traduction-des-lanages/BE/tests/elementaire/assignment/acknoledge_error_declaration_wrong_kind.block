@@ -1,0 +1,8 @@
+error_declaration_wrong_kind {
+    // Test de error_declaration_wrong_kind (template auto-générée)
+
+    // declarer quelque chose d'autre qu'une variable (ici un record)
+
+    // essayer d'assigner cette declaration
+
+}

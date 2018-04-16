@@ -1,0 +1,20 @@
+test {
+	// commentaire mono ligne
+	print 0;
+	boolean condition = 5 > 2;
+	if ( 6 > 1) {
+		int i = 5;
+		/*commentaire
+		multi
+		ligne*/
+		while ( 5>0 ) {
+			i = i-1;
+		}
+	} else  {
+		print 42;
+	
+	}
+	print "une chaine random";
+	<int, int> c = <3, 5>;
+	int x = fst c + snd c;
+}

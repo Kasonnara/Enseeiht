@@ -1,0 +1,10 @@
+basic_repetition {
+    // Test de basic_repetition (template auto-générée)
+    while (false) {
+
+    }
+
+    while (true) {
+
+    }
+}

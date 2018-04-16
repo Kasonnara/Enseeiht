@@ -1,0 +1,6 @@
+error_array_asignment_type_missmatch {
+    // Test de error_array_asignment_type_missmatch (template auto-générée)
+    int arr1[] = new int[5];
+    boolean arr2[] = new boolean[3];
+    arr1 = arr2;
+}

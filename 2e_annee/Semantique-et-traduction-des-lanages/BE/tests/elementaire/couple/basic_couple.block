@@ -1,0 +1,4 @@
+basic_couple {
+    // Test de basic_couple (template auto-générée)
+    <int,boolean> x = <5,true>;
+}

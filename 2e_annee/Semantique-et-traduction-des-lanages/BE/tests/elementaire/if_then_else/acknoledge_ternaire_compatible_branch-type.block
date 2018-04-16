@@ -1,0 +1,7 @@
+ternaire_compatible_branch-type {
+    // Test de ternaire_compatible_branch-type (template auto-générée)
+
+    // TODO un ternaire ou then compatible avec else
+
+    // TODO un ternaire ou else compatible avec then
+}

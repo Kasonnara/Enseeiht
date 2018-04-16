@@ -1,0 +1,5 @@
+pointer_elt_assignment {
+    // Test de pointer_elt_assignment (template auto-générée)
+    int *plt = new int();
+    *plt = 42;
+}

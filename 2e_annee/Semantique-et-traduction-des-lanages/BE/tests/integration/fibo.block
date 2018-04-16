@@ -1,0 +1,18 @@
+fibo {
+    // Test de fibo (template auto-générée)
+    int fibo(int n){
+    int a = 0;
+    int b = 1;
+    int m = n;
+    while (m > 0){
+        int c = b;
+        b = a + b;
+        a = c;
+        m = m-1;
+    }
+    return a;
+    }
+
+    print fibo(5);
+    print fibo(8);
+}

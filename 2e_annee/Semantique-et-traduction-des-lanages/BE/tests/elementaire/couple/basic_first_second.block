@@ -1,0 +1,6 @@
+basic_first_second {
+    // Test de basic_first_second (template auto-générée)
+    <boolean, character> c = <true, 'f'>;
+    boolean r = fst c;
+    character t = snd c;
+}

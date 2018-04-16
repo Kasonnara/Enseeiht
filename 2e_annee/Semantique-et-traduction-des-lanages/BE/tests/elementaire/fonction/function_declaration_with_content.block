@@ -1,0 +1,7 @@
+function_declaration_with_content {
+    // Test de function_declaration_with_content (template auto-générée)
+    void f_empty(){
+        int a = 42;
+        <int,character> b = <a,'p'>;
+    }
+}

@@ -1,0 +1,4 @@
+basic_array {
+    // Test de basic_array (template auto-générée)
+    int arr[] = new int[5];
+}

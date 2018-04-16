@@ -1,0 +1,4 @@
+error_not_a_pointer {
+    // Test de error_not_a_pointer (template auto-générée)
+    print *5;
+}

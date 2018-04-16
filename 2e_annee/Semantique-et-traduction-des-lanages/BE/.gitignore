@@ -1,0 +1,5 @@
+*.tam
+.idea
+.~lock*
+bin
+tools

@@ -1,0 +1,12 @@
+fact {
+    // Test de fact (template auto-générée)
+    int fact (int n){
+        if (n==1){
+            return 1;
+        } else {
+            return fact(n-1)*n;
+        }
+    }
+
+    print fact(3);
+}

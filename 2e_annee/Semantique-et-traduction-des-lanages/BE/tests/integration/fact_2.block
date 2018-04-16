@@ -1,0 +1,16 @@
+fact_2 {
+    // Test de fact_2 (template auto-générée)
+
+    int fact (int n) {
+        int r = 1;
+        int m = n;
+        while (m > 0){
+            r = r * m;
+            m = m -1;
+        }
+        return r;
+    }
+
+    print fact(3);
+    print fact(5);
+}

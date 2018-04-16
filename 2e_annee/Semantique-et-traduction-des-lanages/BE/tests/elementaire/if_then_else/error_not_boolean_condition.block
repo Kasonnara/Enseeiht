@@ -1,0 +1,6 @@
+error_not_boolean_condition {
+    // Test de error_not_boolean_condition (template auto-générée)
+    if (5) {
+
+    }
+}

@@ -1,0 +1,4 @@
+basic_sequence {
+    // Test de basic_sequence (template auto-générée)
+    {int,character,int} seq = {42, '&', 13};
+}

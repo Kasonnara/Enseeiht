@@ -1,0 +1,6 @@
+test {
+	character a = 'x' ;
+	int b = 42;
+	boolean e = true;
+	boolean f = false;
+}

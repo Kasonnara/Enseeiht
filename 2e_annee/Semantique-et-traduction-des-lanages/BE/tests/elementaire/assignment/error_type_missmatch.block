@@ -1,0 +1,5 @@
+error_type_missmatch {
+    // Test de error_type_missmatch (template auto-générée)
+    int x = 5;
+    x = 'a';
+}

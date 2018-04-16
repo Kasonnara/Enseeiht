@@ -1,0 +1,6 @@
+error_not_array_var {
+    // Test de error_not_array_var (template auto-générée)
+    // essayer d'acceder a un indice sur une variable qui n'est pas un tableau
+    int x = 5;
+    x[6] = 12;
+}

@@ -1,0 +1,5 @@
+basic_print {
+    // Test de basic_print (template auto-générée)
+    print 5;
+    //print "print ok"; // pas testable code des string pas implanté
+}

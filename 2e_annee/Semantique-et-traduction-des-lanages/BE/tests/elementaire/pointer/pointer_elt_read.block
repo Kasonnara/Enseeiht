@@ -1,0 +1,7 @@
+pointer_elt_read {
+    // Test de pointer_elt_read (template auto-générée)
+    int x = 5;
+    int *plt = &x;
+    int **plt2 = &plt;
+    print **plt2;
+}
